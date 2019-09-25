@@ -116,8 +116,36 @@
 
 <article class="post-card post"> 
     
+    <a class="post-card-image-link" href="https://zz3553.github.io/post/">
+      <div class="post-card-image" style="background-image: url(https://zz3553.github.io/defimg/3.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://zz3553.github.io/post/">
+          <header class="post-card-header">
+              
+              <h2 class="post-card-title">Posts</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p> </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://zz3553.github.io/pics/avatar.JPG" alt="Author" />
+          <span class="post-card-author"><a href="/">ZZ</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
     <a class="post-card-image-link" href="https://zz3553.github.io/functions/">
-      <div class="post-card-image" style="background-image: url(https://zz3553.github.io/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://zz3553.github.io/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -147,53 +175,23 @@ public abstract class Function { /** * Create a function */ public Function() { 
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://zz3553.github.io/connectfour/">
+    <a class="post-card-image-link" href="https://zz3553.github.io/derp-interpretor/">
       <div class="post-card-image" style="background-image: url(https://zz3553.github.io/defimg/1.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://zz3553.github.io/connectfour/">
+      <a class="post-card-content-link" href="https://zz3553.github.io/derp-interpretor/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #code  </span>
               
-              <h2 class="post-card-title">ConnectFour</h2>
+              <h2 class="post-card-title">Derp Interpretor</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>This program touches on networking. It lets two players play a game of ConnectFour while the program keeps track of the baord. The server and client was setup as follows:
-public ConnectFourServer(int port) throws IOException { server = new ServerSocket(port); //connections for both players s1 = server.accept(); s2 = server.accept(); //input and output streams for both out1 = new PrintStream(s1.getOutputStream()); in1 = new Scanner(s1.getInputStream()); out2 = new PrintStream(s2.getOutputStream()); in2 = new Scanner(s2. ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://zz3553.github.io/pics/avatar.JPG" alt="Author" />
-          <span class="post-card-author"><a href="/">ZZ</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://zz3553.github.io/intro/">
-      <div class="post-card-image" style="background-image: url(https://zz3553.github.io/pics/dwtn_roc.jpg)"></div>
-    </a>
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://zz3553.github.io/intro/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #me  </span>
-              
-              <h2 class="post-card-title">Intro</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Hey, I&rsquo;m Zaarib and currenty studying Software Engineering at RIT. I go by several names which include, Mitchel, Samin, and of course Zaarib (long story). I am also a crazy Travis Scott and Kanye West fan and am thoroughly addcited to music. </p>
+                <p>This exercise was used to evaluate simple mathematical expressions that were represented by a tree. The following classes were used to help make the tree:
+@dataclass class LiteralNode: &quot;&quot;&quot;Represents an operand node&quot;&quot;&quot; val: int @dataclass class VariableNode: &quot;&quot;&quot;Represents a variable node&quot;&quot;&quot; name: str @dataclass class MathNode: &quot;&quot;&quot;Represents a mathematical operation&quot;&quot;&quot; left: Union['MathNode', LiteralNode, VariableNode] op: str right: Union['MathNode', LiteralNode, VariableNode] @dataclass class table: &quot;&quot;&quot; used to store variables with their value &quot;&quot;&quot; key: str value: str  Using those, a method was made to solve the equations: ...  </p>
               
           </section>
       </a>
