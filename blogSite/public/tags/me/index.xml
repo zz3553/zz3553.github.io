@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>me on </title>
+    <link>https://zz3553.github.io/tags/me/</link>
+    <description>Recent content in me on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 18 Jul 2019 22:49:03 -0400</lastBuildDate>
+    
+	<atom:link href="https://zz3553.github.io/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro</title>
+      <link>https://zz3553.github.io/intro/</link>
+      <pubDate>Thu, 18 Jul 2019 22:49:03 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/intro/</guid>
+      <description>Hey, I&amp;rsquo;m Zaarib and currenty studying Software Engineering at RIT. I go by several names which include, Mitchel, Samin, and of course Zaarib (long story). I am also a crazy Travis Scott and Kanye West fan and am thoroughly addcited to music.</description>
+    </item>
+    
+  </channel>
+</rss>

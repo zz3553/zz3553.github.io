@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://zz3553.github.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 07 Sep 2019 19:35:07 -0400</lastBuildDate>
+    
+	<atom:link href="https://zz3553.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ConnectFour</title>
+      <link>https://zz3553.github.io/connectfour/</link>
+      <pubDate>Sat, 07 Sep 2019 19:35:07 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/connectfour/</guid>
+      <description>This program touches on networking. It lets two players play a game of ConnectFour while the program keeps track of the baord. The server and client was setup as follows:
+public ConnectFourServer(int port) throws IOException { server = new ServerSocket(port); //connections for both players s1 = server.accept(); s2 = server.accept(); //input and output streams for both out1 = new PrintStream(s1.getOutputStream()); in1 = new Scanner(s1.getInputStream()); out2 = new PrintStream(s2.getOutputStream()); in2 = new Scanner(s2.</description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://zz3553.github.io/functions/</link>
+      <pubDate>Sat, 07 Sep 2019 17:20:46 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/functions/</guid>
+      <description>This project deals with Calculus expressions. The program is designed to solve certain type of problems. The abstract class, Function.java was used as a template for math objects such as a sum, project, cosine, variable, etc. :
+public abstract class Function { /** * Create a function */ public Function() { } public abstract double evaluate(double x); public abstract String toString(); public abstract Function derivative(); public abstract double integral(double a, double b, int c); public abstract boolean isConstant(); }  One of the more difficult parts of this was implementing the derivative function of a Product object.</description>
+    </item>
+    
+    <item>
+      <title>Derp Interpretor</title>
+      <link>https://zz3553.github.io/derp-interpretor/</link>
+      <pubDate>Thu, 05 Sep 2019 18:47:10 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/derp-interpretor/</guid>
+      <description>This exercise was used to evaluate simple mathematical expressions that were represented by a tree. The following classes were used to help make the tree:
+@dataclass class LiteralNode: &amp;quot;&amp;quot;&amp;quot;Represents an operand node&amp;quot;&amp;quot;&amp;quot; val: int @dataclass class VariableNode: &amp;quot;&amp;quot;&amp;quot;Represents a variable node&amp;quot;&amp;quot;&amp;quot; name: str @dataclass class MathNode: &amp;quot;&amp;quot;&amp;quot;Represents a mathematical operation&amp;quot;&amp;quot;&amp;quot; left: Union[&#39;MathNode&#39;, LiteralNode, VariableNode] op: str right: Union[&#39;MathNode&#39;, LiteralNode, VariableNode] @dataclass class table: &amp;quot;&amp;quot;&amp;quot; used to store variables with their value &amp;quot;&amp;quot;&amp;quot; key: str value: str  Using those, a method was made to solve the equations:</description>
+    </item>
+    
+    <item>
+      <title>Roots</title>
+      <link>https://zz3553.github.io/roots/</link>
+      <pubDate>Mon, 05 Aug 2019 22:56:32 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/roots/</guid>
+      <description>This is one of the earliest programming exercises I had worked on: Given 3 parameters, a function would return how many roots an equation had and what they were.
+Sample Code:
+def quadratic_roots(a, b, c): &amp;quot;&amp;quot;&amp;quot; This function will take the discriminant and use it to see how many roots exist for the equation. It then finds what the roots are. The a, b, c variables pertain to the a,b,c in the equation ax^2 + bx + c.</description>
+    </item>
+    
+    <item>
+      <title>Why?</title>
+      <link>https://zz3553.github.io/why/</link>
+      <pubDate>Sun, 21 Jul 2019 18:28:23 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/why/</guid>
+      <description>Started practicing this in my first year of college to better apreciate music. I figured if I learned a musical instrument, I would be able to understand beats/rhytmn more and how they work together.</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://zz3553.github.io/intro/</link>
+      <pubDate>Thu, 18 Jul 2019 22:49:03 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/intro/</guid>
+      <description>Hey, I&amp;rsquo;m Zaarib and currenty studying Software Engineering at RIT. I go by several names which include, Mitchel, Samin, and of course Zaarib (long story). I am also a crazy Travis Scott and Kanye West fan and am thoroughly addcited to music.</description>
+    </item>
+    
+  </channel>
+</rss>

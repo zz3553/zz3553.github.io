@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://zz3553.github.io/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 07 Sep 2019 19:35:07 -0400</lastBuildDate>
+    
+	<atom:link href="https://zz3553.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>code</title>
+      <link>https://zz3553.github.io/tags/code/</link>
+      <pubDate>Sat, 07 Sep 2019 19:35:07 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uke</title>
+      <link>https://zz3553.github.io/tags/uke/</link>
+      <pubDate>Sun, 21 Jul 2019 18:28:23 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/tags/uke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>me</title>
+      <link>https://zz3553.github.io/tags/me/</link>
+      <pubDate>Thu, 18 Jul 2019 22:49:03 -0400</pubDate>
+      
+      <guid>https://zz3553.github.io/tags/me/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

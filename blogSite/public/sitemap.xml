@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://zz3553.github.io/</loc>
+    <lastmod>2019-09-07T19:35:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/connectfour/</loc>
+    <lastmod>2019-09-07T19:35:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/post/</loc>
+    <lastmod>2019-09-07T19:35:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/tags/</loc>
+    <lastmod>2019-09-07T19:35:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/tags/code/</loc>
+    <lastmod>2019-09-07T19:35:07-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/functions/</loc>
+    <lastmod>2019-09-07T17:20:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/derp-interpretor/</loc>
+    <lastmod>2019-09-05T18:47:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/roots/</loc>
+    <lastmod>2019-08-05T22:56:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/why/</loc>
+    <lastmod>2019-07-21T18:28:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/tags/uke/</loc>
+    <lastmod>2019-07-21T18:28:23-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/intro/</loc>
+    <lastmod>2019-07-18T22:49:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/tags/me/</loc>
+    <lastmod>2019-07-18T22:49:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zz3553.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
