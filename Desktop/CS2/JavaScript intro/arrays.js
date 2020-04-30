@@ -17,7 +17,7 @@ function add(num) {
 }
 
 num.forEach(iter)
-function iter(num, i, arr) {
+function iter(num, i, arr) { //num is arr[i]
     arr[i] = num + 5
 }
 
