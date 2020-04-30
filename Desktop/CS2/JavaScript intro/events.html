@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<button onmouseover="this.innerHTML=test()">The time is?</button>
+    <p id = 'button'>Turn me blue :)</p>
+    <button onclick ="color('cyan')" onmouseover="this.innerHTML=test()">The time is?</button>
 <script>
     function test() {
         return Date()
     }
 </script>
+<script>
+    function color(thisColor) {
+        var elem = document.getElementById('button');
+        elem.style.color = thisColor
+    }
+</script>
     
 
 </body>
-</html>
+</html>   
