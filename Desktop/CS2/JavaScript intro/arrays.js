@@ -24,4 +24,10 @@ function iter(num, i, arr) { //num is arr[i]
 console.log(num)
 
 console.log(newNums)
+console.log(artists.pop())
+console.log(artists.push("Lil Uzi"))
+console.log(artists.shift())
+console.log(artists.unshift("Travis Scott"))
 
+artists.splice(artists.length-1, 0, "Tory Lanez") //splice is like replaing part of a string -> param1: starting index, param2: how many elements to delete, extras are what to add
+console.log(artists)
