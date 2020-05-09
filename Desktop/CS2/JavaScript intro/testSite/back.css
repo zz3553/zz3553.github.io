@@ -1,0 +1,27 @@
+header {
+    background-image: url("pattern.jpeg");
+    font-size: 40px;
+    height: 200px;
+    text-align: center;
+    color: blanchedalmond
+}
+.brushes>h2 {
+    color: black;
+    background-color: aquamarine
+    
+}
+.frames>h2 {
+    color: black;
+    background-color: indianred
+}
+.paint>h2 {
+    color: black;
+    background-color: aqua
+}
+h3 {
+    font-weight: bold
+}
+mark {
+    color: blue;
+    background-color: transparent
+}
