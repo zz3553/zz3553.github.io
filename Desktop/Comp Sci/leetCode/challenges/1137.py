@@ -15,6 +15,7 @@
 # Input: n = 25
 # Output: 1389537
 
+nums = []
 class Solution(object):
     def tribonacci(self, n):
         """
@@ -22,9 +23,11 @@ class Solution(object):
         :rtype: int
         """
         if n == 0: 
-            return 0 
+            nums.append(n)
+            return sum(nums)
         elif n == 1 or n == 2:
-            return 1
+            nums.append(n)
+            return sum(nums)
         else:
             return self.tribonacci(n-3) + self.tribonacci(n-2) + self.tribonacci(n-1)
 
